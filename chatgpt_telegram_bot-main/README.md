@@ -39,7 +39,6 @@ It supports many payments providers:
 - [ЮMoney](https://yoomoney.ru)
 - and [many-many other](https://core.telegram.org/bots/payments#supported-payment-providers)
 
-If you want to add payments to your bot – write me on Telegram ([@karfly](https://t.me/karfly)).
 
 ## News
 - *24 Mar 2023*: GPT-4 support. Run `/settings` command to choose model
