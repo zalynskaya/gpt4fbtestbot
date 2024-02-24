@@ -30,22 +30,7 @@ This repo is ChatGPT re-created as Telegram Bot. **And it works great.**
 
 ---
 
-## 🤑 Payments
-It supports many payments providers:
-- 💎 Crypto
-- [Stripe](https://stripe.com)
-- [Smart Glocal](https://smart-glocal.com)
-- [Unlimint](https://www.unlimint.com)
-- [ЮMoney](https://yoomoney.ru)
-- and [many-many other](https://core.telegram.org/bots/payments#supported-payment-providers)
 
-
-## News
-- *24 Mar 2023*: GPT-4 support. Run `/settings` command to choose model
-- *15 Mar 2023*: Added message streaming. Now you don't have to wait until the whole message is ready, it's streamed to Telegram part-by-part (watch demo)
-- *9 Mar 2023*: Now you can easily create your own Chat Modes by editing `config/chat_modes.yml`
-- *8 Mar 2023*: Added voice message recognition with [OpenAI Whisper API](https://openai.com/blog/introducing-chatgpt-and-whisper-apis). Record a voice message and ChatGPT will answer you!
-- *2 Mar 2023*: Added support of [ChatGPT API](https://platform.openai.com/docs/guides/chat/introduction). It's enabled by default and can be disabled with `use_chatgpt_api` option in config. Don't forget to **rebuild** you docker image (`--build`).
 
 ## Bot commands
 - `/retry` – Regenerate last bot answer
